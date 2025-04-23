@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    	<!--輪播-->
+	    <link rel="stylesheet" href="swiper.min.css">
+	    <script src="swiper.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- page content -->
+        <div class="full-width">
+            <div class="content">
+                <img src="./images/06.jpg" />
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="content">
+                <img src="./images/DemoFinal.gif" />
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="content">
+                <img src="./images/02.jpg" />
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="content">
+                <img src="./images/03.jpg" />
+            </div>
+        </div>
+        
+        <!--影片-->
+        <div class="full-width">
+            <div class="content videosection">
+                <img src="./images/04.jpg" />
+                <!--<div class="movie1">
+                    <div class="video-container">
+                        <iframe width="308" height="465" src="https://www.youtube.com/embed/q5hpdL52HYc" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>--> 
+                <div class="swiper-container swiper2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/3ZIsdD6XEBs" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/q5hpdL52HYc" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/GEBSEz6NbH0" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>       
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/PZGNv8uoDwI" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/3ZIsdD6XEBs" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/q5hpdL52HYc" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/GEBSEz6NbH0" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>       
+                      <div class="swiper-slide"><iframe width="308" height="465" src="https://www.youtube.com/embed/PZGNv8uoDwI" title="【ネイティブキャンプ英会話】Teryl講師" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="png_2"><img src="./images/d.png"></div>
+                      </div>                  
+                    </div>				
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width">
+            <img src="./images/05.gif" />
+        </div>
+
+        <script>
+            /*輪播設定*/
+      
+            var swiper2 = new Swiper('.swiper2', {
+              slidesPerView: 4,
+              spaceBetween: 1,
+              speed: 1000,
+              loop: true,
+              autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              }
+            });
+        </script>
+
+        
+    </body>
+
+</html>
