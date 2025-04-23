@@ -67,8 +67,24 @@ img{
 
 .png_2 {
 	position: absolute;
-	width: 16.2%;
-	bottom: 9.8%;
+	height: 18.2%;
+	bottom: 8%;
 	left: 12.5%;
+    z-index: 999;
+}
+
+.png_3 {
+	position: absolute;
+	height: 44.2%;
+	bottom: 12%;
+	left: 7.5%;
+    z-index: 999;
+}
+
+.png_4 {
+	position: absolute;
+	width: ;: 12.2%;
+	bottom: 31%;
+	left: 77.5%;
     z-index: 999;
 }
