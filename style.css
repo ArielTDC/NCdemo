@@ -83,8 +83,16 @@ img{
 
 .png_4 {
 	position: absolute;
-	width: ;: 12.2%;
+	width: 12.2%;
 	bottom: 31%;
 	left: 77.5%;
+    z-index: 999;
+}
+
+.png_5 {
+	position: absolute;
+	width: 62.2%;
+	bottom: 96%;
+	left: 18.5%;
     z-index: 999;
 }
