@@ -99,9 +99,9 @@ img{
 
 .png_2 {
 	position: absolute;
-	height: 18.2%;
-	bottom: 8%;
-	left: 12.5%;
+	width: 78%;
+	top: 73%;
+	left: 11.5%;
     z-index: 999;
 }
 
@@ -123,9 +123,9 @@ img{
 
 .png_5 {
 	position: absolute;
-	width: 62.2%;
-	bottom: 96%;
-	left: 18.5%;
+	width: 31.2%;
+	bottom: 98%;
+	left: 34.5%;
     z-index: 999;
 }
 
