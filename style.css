@@ -16,7 +16,6 @@ img{
 }
 .content, .full-width>div{
 	/*max-width: 1000px;*/
-	position: relative;
 	width: 100%;
 
 }
@@ -33,6 +32,36 @@ img{
 	position: relative;
 	overflow: hidden;
 }
+
+/*movie start*/
+.movie1 {
+    position: absolute;
+	top: 33%;
+	right: 71.3%;
+    width: 16%;
+    height: 61%;
+}
+
+.video-container {
+ 	position: relative;
+ 	padding-bottom: 465px;
+ 	height: 0;
+	top: 0;
+	left: 0;
+ 	overflow: hidden;	
+    border-radius: 26px;
+    transform: translateZ(0px);
+}
+
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 308px;
+ 	height: 560px;
+}
+
 
 /*浮動CTA start*/
 .floatingCta{
@@ -62,67 +91,48 @@ img{
 
 .png_1 {
 	position: absolute;
-	width: 21%;
-	bottom: 71%;
-	left: 10.5%;
+	width: 16.2%;
+	bottom: -239.8%;
+	left: 12.5%;
     z-index: 999;
 }
 
 .png_2 {
 	position: absolute;
-	width: 16%;
-	top: 8%;
-	left: 75.5%;
+	width: 78%;
+	top: 73%;
+	left: 11.5%;
     z-index: 999;
 }
 
 .png_3 {
 	position: absolute;
-	width: 14.6%;
-	bottom: 69%;
-	left: 76%;
+	height: 44.2%;
+	bottom: 12%;
+	left: 7.5%;
     z-index: 999;
 }
 
-.cta_1 {
+.png_4 {
 	position: absolute;
-	width: 46%;
-	bottom: 9%;
-	left: 27%;
+	width: 12.2%;
+	bottom: 31%;
+	left: 77.5%;
     z-index: 999;
 }
 
-/*imgswing*/
-.imgswing {
-    animation: imgswing ease-in-out 0.8s infinite alternate;
-    /*transform-origin: center 7px;*/
-    float:left;
-}
-@keyframes imgswing {
-    0% { transform: rotate(5deg); }
-    100% { transform: rotate(-5deg); }
+.png_5 {
+	position: absolute;
+	width: 31.2%;
+	bottom: 98%;
+	left: 34.5%;
+    z-index: 999;
 }
 
-/*旋轉*/
-.rotate {
-    animation: rotation 13s infinite linear;
-  }
-  
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+.png_6 {
+	position: absolute;
+	width: 17%;
+	bottom: 31%;
+	left: 83%;
+    z-index: 999;
 }
-
-/* btn 大小跳動 */
-.pulse_ani{
-    animation: pulse 0.8s ease-in-out infinite alternate;
-    transition: all;
-  }
-@keyframes pulse{
-    0% { transform: scale(1);}
-    100% { transform: scale(1.03);}
-} 
